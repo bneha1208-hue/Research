@@ -1,7 +1,8 @@
 {
-  "name": "research2",
+  "name": "legalprecedent-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Frontend UI & Interactive Research Platform for LegalPrecedent and Legal Dictionary",
   "type": "module",
   "scripts": {
     "dev": "vite",
