@@ -1,0 +1,26 @@
+{
+  "name": "legalprecedent-platform",
+  "version": "1.0.0",
+  "description": "LegalPrecedent — Intelligent Legal Case Similarity, Precedent Research & Legal Dictionary Platform for Indian Law",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start": "npm --prefix backend start",
+    "build": "npm --prefix frontend run build",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": [
+    "legal",
+    "precedents",
+    "indian-law",
+    "similarity-engine",
+    "bns",
+    "ipc",
+    "legal-research",
+    "react",
+    "express"
+  ],
+  "author": "LegalPrecedent Team",
+  "license": "ISC"
+}
