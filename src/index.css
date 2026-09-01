@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #ffffff !important;
+  color: #111111;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Force main page background to WHITE */
+#root {
+  background-color: #ffffff !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+.font-serif-legal {
+  font-family: 'Cinzel', serif;
+}
+
+/* =================================
+   BLACK BOXES / CARDS
+================================= */
+
+.glass-panel {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #222222;
+  border-radius: 14px;
+}
+
+.glass-panel-gold {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #222222;
+  border-radius: 14px;
+}
+
+.glass-card-hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #222222;
+  border-radius: 14px;
+  transition: all 0.25s ease;
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-4px);
+  border-color: #555555;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Text inside black boxes */
+.glass-panel *,
+.glass-panel-gold *,
+.glass-card-hover * {
+  color: #ffffff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}

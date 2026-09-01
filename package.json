@@ -1,26 +1,30 @@
 {
-  "name": "legalprecedent-platform",
-  "version": "1.0.0",
-  "description": "LegalPrecedent — Intelligent Legal Case Similarity, Precedent Research & Legal Dictionary Platform for Indian Law",
+  "name": "legalprecedent-frontend",
   "private": true,
+  "version": "1.0.0",
+  "description": "Frontend UI & Interactive Research Platform for LegalPrecedent and Legal Dictionary",
+  "type": "module",
   "scripts": {
-    "dev:backend": "npm --prefix backend run dev",
-    "dev:frontend": "npm --prefix frontend run dev",
-    "start": "npm --prefix backend start",
-    "build": "npm --prefix frontend run build",
-    "test": "npm --prefix backend test"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "keywords": [
-    "legal",
-    "precedents",
-    "indian-law",
-    "similarity-engine",
-    "bns",
-    "ipc",
-    "legal-research",
-    "react",
-    "express"
-  ],
-  "author": "LegalPrecedent Team",
-  "license": "ISC"
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "eslint": "^10.8.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "vite": "^8.2.0"
+  }
 }
