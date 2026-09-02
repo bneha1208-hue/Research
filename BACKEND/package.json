@@ -1,27 +1,29 @@
 {
-  "name": "legalprecedent-backend",
-  "version": "1.0.0",
-  "description": "Backend REST API and Similarity Engine for LegalPrecedent Platform & Legal Dictionary",
-  "main": "server.js",
+  "name": "dhanya---r",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js",
-    "test": "node test/api.test.js"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
-  "keywords": [
-    "legal",
-    "precedents",
-    "indian-law",
-    "bns",
-    "ipc",
-    "similarity-engine",
-    "legal-dictionary"
-  ],
-  "author": "LegalPrecedent Team",
-  "license": "ISC"
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "eslint": "^10.8.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "vite": "^8.2.0"
+  }
 }
