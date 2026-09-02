@@ -60,3 +60,5 @@ Thumbs.db
 .cache/
 *.tmp
 *.temp
+
+frontend_backup/
